@@ -1,0 +1,72 @@
+/* body */
+
+body {
+    background-color: #f2f5f8;
+}
+
+/* section main */
+.card {
+    width: 800px;
+    margin: auto;
+    border: 1px solid gray;
+    padding: 20px 20px;
+}
+/* progress bar */
+.progress-bar {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 45px;
+}
+ 
+.text {
+    margin-top: 11px;
+}
+
+.bar-first {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: gray;
+    border:15px solid rgb(255, 255, 255); 
+}
+
+/* card */
+.card-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-first {
+    border: 3px solid gray;
+    width: 200px;
+    height: 200px;  
+    font-size: 20px;
+}
+h1 {
+    padding: 5px 45px;
+}
+#fontCard{
+    padding: 35px 84px;
+    font-size: 40px;
+}
+
+/* button */
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    margin: 9px 8px;
+    padding: 16px 30px;
+    border-radius: 7px;
+}
+
+#back {
+    background-color: #212529;
+    color: white;
+}
+
+#next {
+    background-color: #00d69f;
+    border: none;
+    color: white;
+}
