@@ -9,8 +9,7 @@
     <title>Wizard Jquery Card</title>
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -18,56 +17,63 @@
 <body>
     <!-- card with jQuery -->
 
+
     <section class="card">
 
         <!-- progress bar -->
         <div class="progress-bar ">
-            <div class="bar-first"></div>
-            <div class="bar-first"></div>
-            <div class="bar-first"></div>
-            <div class="bar-first"></div>
+            <div class="bar-first" id="barFirst"></div>
+            <div class="bar-first" id="barSecond"></div>
+            <div class="bar-first" id="barThree"></div>
+            <div class="bar-first" id="barForth"></div>
         </div>
         <div class="progress-bar text">
-            <div>Step 1</div>
-            <div>Step 2</div>
-            <div>Step 3</div>
-            <div>Step 4</div>
+            <div id="step-1">Step 1</div>
+            <div id="step-2">Step 2</div>
+            <div id="step-3">Step 3</div>
+            <div id="step-4">Step 4</div>
         </div>
 
         <!-- /progress bar -->
         <!-- card -->
         <h1>Select Card</h1>
-        <div class="card-section" align="center">
+        <div class="card-section" id="card-1">
             <div class="card-first">
-                <i class="fa fa-building" id="fontCard"></i>
+                <i class="fa fa-building"></i>
                 Building
             </div>
             <div class="card-first">
-                <i class="fa fa-globe" id="fontCard"></i>
+                <i class="fa fa-globe fa-building"></i>
                 World Wide
             </div>
             <div class="card-first">
-                <i class="fa fa-building" id="fontCard"></i>
+                <i class="fa fa-building"></i>
                 Web Design
             </div>
         </div>
         <div class=""></div>
+
+        <div class="button">
+            <button class="button" id="back">Back</button>
+            <button class="button" id="next" disabled>Next </button>
+        </div>
+
         <!-- /card -->
 
 
         <!-- card two -->
-        <h1> </h1>
-        <div class="card-section" align="center">
+
+        <div class="card-section" id="card-2">
             <div class="card-first">
-                <i class="fa fa-building" id="fontCard"></i>
+                <i class="fa fa-building"></i>
                 Design
             </div>
             <div class="card-first">
-                <i class="fa fa-globe" id="fontCard"></i>
+                <i class="fa fa-globe fa-building"></i>
                 Code
             </div>
             <div class="card-first">
-                <i class="fa fa-building" id="fontCard"></i>
+                <i class="fa fa-building"></i>
                 Develop
             </div>
         </div>
@@ -76,18 +82,20 @@
 
 
         <!-- card three -->
-        <h1> </h1>
-        <div class="card-section" align="center">
+
+        <div class="card-section" id="card-3">
+
+
             <div class="card-first">
                 <i class="fa fa-building" id="fontCard"></i>
                 Design
             </div>
             <div class="card-first">
-                <i class="fa fa-globe" id="fontCard"></i>
+                <i class="fa fa-globe fa-building"></i>
                 Code
             </div>
             <div class="card-first">
-                <i class="fa fa-building" id="fontCard"></i>
+                <i class="fa fa-building"></i>
                 Develop
             </div>
         </div>
@@ -95,13 +103,7 @@
         <!-- /card -->
 
         <!-- button -->
-        <div class="button">
 
-            <button class="button" id="back">Back</button>
-            <button class="button" id="next">Next</button>
-
-
-        </div>
 
 
     </section>
@@ -110,8 +112,6 @@
 
     <!-- jquery js -->
     <script src="./jQuery/jquery-3.6.1.min.js"></script>
-    <!-- bootstrap js  -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
     <!-- main js -->
     <script src="./js/main.js"></script>
 </body>

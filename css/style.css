@@ -7,6 +7,7 @@ body {
 /* section main */
 .card {
     width: 800px;
+    height: 450px;
     margin: auto;
     border: 1px solid gray;
     padding: 20px 20px;
@@ -27,13 +28,14 @@ body {
     height: 15px;
     border-radius: 100%;
     background-color: gray;
-    border:15px solid rgb(255, 255, 255); 
+    border:11px solid rgb(255, 255, 255); 
 }
 
 /* card */
 .card-section {
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .card-first {
@@ -45,10 +47,24 @@ body {
 h1 {
     padding: 5px 45px;
 }
-#fontCard{
+ 
+.fa-building {
     padding: 35px 84px;
-    font-size: 40px;
 }
+ 
+#card-2 {
+    display: none;
+}
+#card-3 {
+    display: none;
+}
+
+.active {
+    color: green;
+    border:3px solid green
+
+}
+
 
 /* button */
 
@@ -70,3 +86,5 @@ h1 {
     border: none;
     color: white;
 }
+
+
