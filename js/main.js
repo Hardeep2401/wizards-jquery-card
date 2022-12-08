@@ -7,6 +7,7 @@ $(document).ready(function () {
     $("#next").click(function () {
         $("#barFirst").css({ 'border-color': 'green', 'background-color': 'yellow' });
     });
+    
 });
 
 
