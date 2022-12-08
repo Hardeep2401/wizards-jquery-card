@@ -5,9 +5,8 @@ $(document).ready(function () {
         $("#next").removeAttr('disabled');
     });
     $("#next").click(function () {
-        $("#barFirst").css({ 'border-color': 'green', 'background-color': 'yellow' })
+        $("#barFirst").css({ 'border-color': 'green', 'background-color': 'yellow' });
     });
-
 });
 
 
