@@ -7,6 +7,7 @@ $(document).ready(function () {
 
     $("#next").click(function () {
         $("#barFirst").css({ 'border-color': 'green', 'background-color': 'yellow' });
+        $("#card-1").css('display','none');
         $("#card-1").fadeOut();
         $("#card-2").fadeIn();
         $("#next").attr("disabled", true);
@@ -17,6 +18,7 @@ $(document).ready(function () {
 
         $(this).siblings().removeClass('active');
         $(this).toggleClass("active");
+        $("#card-2").css('display','none');
         $("#card-2").fadeOut();
         $("#card-3").fadeIn();
 
@@ -28,6 +30,7 @@ $(document).ready(function () {
 
         $(this).siblings().removeClass('active');
         $(this).toggleClass("active");
+        $("#card-3").css('display','none');
         $("#card-3").fadeOut();
         $("#card-4").fadeIn();
         $("#barThree").css({ 'border-color': 'green', 'background-color': 'yellow' });
