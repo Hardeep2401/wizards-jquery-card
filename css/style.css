@@ -38,10 +38,27 @@ body {
     text-align: center;
 }
 
-.card-first {
+.card-first-1 {
     border: 3px solid gray;
     width: 200px;
     height: 200px;  
+    font-size: 20px;
+}
+.card-first-2 {
+    border: 3px solid gray;
+    width: 200px;
+    height: 200px;  
+    font-size: 20px;
+}
+.card-first-3 {
+    border: 3px solid gray;
+    width: 200px;
+    height: 200px;  
+    font-size: 20px;
+}
+.card-first-4 {
+    
+     
     font-size: 20px;
 }
 h1 {
@@ -54,12 +71,13 @@ h1 {
  
 #card-2 {
     display: none;
-   
 }
 #card-3 {
     display: none;
 }
-
+#card-4 {
+    display: none;
+}
 .active {
     color: green;
     border:3px solid green;
