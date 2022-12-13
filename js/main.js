@@ -19,7 +19,6 @@ $(document).ready(function () {
     });
 
     $("#next-2").click(function () {
-
         $("#barSecond").css({ 'border-color': 'green', 'background-color': 'yellow' });
         $("#card-2").css('display', 'none');
         $("#card-2").fadeOut();
