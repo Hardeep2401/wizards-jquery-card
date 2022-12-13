@@ -10,8 +10,6 @@ $(document).ready(function () {
         $("#card-1").css('display', 'none');
         $("#card-1").fadeOut();
         $("#card-2").fadeIn();
-
-
     });
 
     $(".card-first-2").click(function () {
@@ -19,6 +17,7 @@ $(document).ready(function () {
         $(this).toggleClass("active");
         $("#next-2").removeAttr('disabled');
     });
+
     $("#next-2").click(function () {
 
         $("#barSecond").css({ 'border-color': 'green', 'background-color': 'yellow' });
@@ -26,25 +25,25 @@ $(document).ready(function () {
         $("#card-2").fadeOut();
         $("#card-3").fadeIn();
     });
+
     $(".card-first-3").click(function () {
         $(this).siblings().removeClass('active');
         $(this).toggleClass("active");
         $("#next-3").removeAttr('disabled');
     });
+
     $("#next-3").click(function () {
         $("#barThree").css({ 'border-color': 'green', 'background-color': 'yellow' });
         $("#card-3").css('display', 'none');
         $("#card-3").fadeOut();
         $("#card-4").fadeIn().css();
     });
+
     $(".card-first-4").click(function () {
         $(this).siblings().removeClass('active');
         $(this).toggleClass("active");
         $("#next-3").removeAttr('disabled');
     });
-
-
-
 });
 
 
