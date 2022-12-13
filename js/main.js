@@ -30,7 +30,7 @@ $(document).ready(function () {
         $("#card-2").fadeOut();
         $("#card-1").fadeIn();
     });
-    
+
     $(".card-first-3").click(function () {
         $(this).siblings().removeClass('active');
         $(this).toggleClass("active");
@@ -44,17 +44,24 @@ $(document).ready(function () {
         $("#card-4").fadeIn().css();
     });
     $("#back-3").click(function () {
-        $("#barSecond").css({ 'border-color': '', 'background-color': '' });
+        $("#bar").css({ 'border-color': 'green', 'background-color': 'yellow' });
         $("#card-3").css('display', 'none');
         $("#card-3").fadeOut();
         $("#card-2").fadeIn();
     });
-    
+
     $(".card-first-4").click(function () {
         $(this).siblings().removeClass('active');
         $(this).toggleClass("active");
         $("#next-3").removeAttr('disabled');
     });
+    $("#back-4").click(function () {
+        $("#barThree").css({ 'border-color': '', 'background-color': '' });
+        $("#card-4").css('display', 'none');
+        $("#card-4").fadeOut();
+        $("#card-3").fadeIn();
+    });
+
 });
 
 

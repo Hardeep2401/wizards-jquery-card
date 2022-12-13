@@ -71,7 +71,7 @@ h1 {
 }
 .img {
     width: 50%;
-    margin: 50px;
+    margin: 15px;
 }
 /* button */
 .button {
@@ -93,6 +93,10 @@ h1 {
     background-color: #212529;
     color: white;
 }
+#back-4 {
+    background-color: #212529;
+    color: white;
+}
 #next-1   {
     background-color: #00d69f;
     border: none;
@@ -104,6 +108,11 @@ h1 {
     color: white;
 }
 #next-3   {
+    background-color: #00d69f;
+    border: none;
+    color: white;
+}
+#next-4   {
     background-color: #00d69f;
     border: none;
     color: white;
