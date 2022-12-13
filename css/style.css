@@ -1,9 +1,7 @@
 /* body */
-
 body {
     background-color: #f2f5f8;
 }
-
 /* section main */
 .card {
     width: 800px;
@@ -18,11 +16,9 @@ body {
     justify-content: space-between; 
     padding: 0px 45px;
 }
- 
 .text {
     margin-top: 11px;
 }
-
 .bar-first {
     width: 15px;
     height: 15px;
@@ -30,14 +26,12 @@ body {
     background-color: gray;
     border:11px solid rgb(255, 255, 255); 
 }
-
 /* card */
 .card-section {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
-
 .card-first-1 {
     border: 3px solid gray;
     width: 200px;
@@ -56,15 +50,12 @@ body {
     height: 200px;  
     font-size: 20px;
 }
-
 h1 {
     padding: 5px 45px;
 }
- 
 .fa-building {
     padding: 35px 84px;
 }
- 
 #card-2 {
     display: none;
 }
@@ -78,15 +69,11 @@ h1 {
     color: green;
     border:3px solid green;
 }
-
 .img {
     width: 50%;
     margin: 50px;
 }
- 
-
 /* button */
-
 .button {
     display: flex;
     justify-content: space-between;
@@ -94,12 +81,18 @@ h1 {
     padding: 16px 30px;
     border-radius: 7px;
 }
-
 #back {
     background-color: #212529;
     color: white;
 }
-
+#back-2 {
+    background-color: #212529;
+    color: white;
+}
+#back-3 {
+    background-color: #212529;
+    color: white;
+}
 #next-1   {
     background-color: #00d69f;
     border: none;

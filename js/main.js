@@ -24,7 +24,13 @@ $(document).ready(function () {
         $("#card-2").fadeOut();
         $("#card-3").fadeIn();
     });
-
+    $("#back-2").click(function () {
+        $("#barSecond").css({ 'border-color': '', 'background-color': '' });
+        $("#card-2").css('display', 'none');
+        $("#card-2").fadeOut();
+        $("#card-1").fadeIn();
+    });
+    
     $(".card-first-3").click(function () {
         $(this).siblings().removeClass('active');
         $(this).toggleClass("active");
@@ -37,7 +43,13 @@ $(document).ready(function () {
         $("#card-3").fadeOut();
         $("#card-4").fadeIn().css();
     });
-
+    $("#back-3").click(function () {
+        $("#barSecond").css({ 'border-color': '', 'background-color': '' });
+        $("#card-3").css('display', 'none');
+        $("#card-3").fadeOut();
+        $("#card-2").fadeIn();
+    });
+    
     $(".card-first-4").click(function () {
         $(this).siblings().removeClass('active');
         $(this).toggleClass("active");
